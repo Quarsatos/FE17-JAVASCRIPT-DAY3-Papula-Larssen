@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(236, 212, 212);
+}
+
+.container {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2em;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
+  width: 300px;
+}
+.container > div {
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+.container > h1, .container input, .container button, .container p, .container a {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+.container input, .container button, .container p, .container a {
+  font-size: 1.2em;
+}
+.container input {
+  border: 2px solid black;
+  width: 19%;
+  padding: 0.5em 0;
+  text-align: center;
+}
+.container button, .container a {
+  padding: 0.5em;
+  background: rgb(92, 6, 6);
+  color: white;
+}
+.container button:hover, .container a:hover {
+  background: red;
+}
+.container a {
+  text-decoration: none;
+  padding: 0.5em 1.1em;
+}/*# sourceMappingURL=main.css.map */
